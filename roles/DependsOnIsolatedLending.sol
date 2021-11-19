@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./DependentContract.sol";
-import "../IsolatedLending.sol";
+import "/home/sv/MoreMoneyFinance_New/IsolatedLending.sol";
 
 abstract contract DependsOnIsolatedLending is DependentContract {
     constructor() {
