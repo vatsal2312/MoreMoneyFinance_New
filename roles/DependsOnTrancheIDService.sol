@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./DependentContract.sol";
-import "../TrancheIDService.sol";
+import "/home/sv/MoreMoneyFinance_New/TrancheIDService.sol";
 
 abstract contract DependsOnTrancheIDService is DependentContract {
     constructor() {
