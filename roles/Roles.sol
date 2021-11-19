@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity ^0.8.0;
 
-import "../sv/Ownable.sol";
-import "../interfaces/IDependencyController.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/Ownable.sol";
+import "/home/sv/MoreMoneyFinance_New/interfaces/IDependencyController.sol";
 
 // we chose not to go with an enum
 // to make this list easy to extend
