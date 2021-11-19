@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity ^0.8.0;
 
-import "../TrancheIDAware.sol";
-import "../OracleRegistry.sol";
-import "../interfaces/IOracle.sol";
-import "../roles/DependsOnOracleRegistry.sol";
+import "/home/sv/MoreMoneyFinance_New/TrancheIDAware.sol";
+import "/home/sv/MoreMoneyFinance_New/OracleRegistry.sol";
+import "/home/sv/MoreMoneyFinance_New/interfaces/IOracle.sol";
+import "/home/sv/MoreMoneyFinance_New/roles/DependsOnOracleRegistry.sol";
 
 /// Mixin for contracts that depend on oracles, caches current oracles
 /// resposible for a token pair
