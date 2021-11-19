@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./DependentContract.sol";
-import "../oracles/TwapOracle.sol";
+import "/home/sv/MoreMoneyFinance_New/oracles/TwapOracle.sol";
 
 abstract contract DependsonTwapOracle is DependentContract {
     constructor() {
