@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity ^0.8.0;
 
-import "../Strategy.sol";
+import "/home/sv/MoreMoneyFinance_New/Strategy.sol";
 
-import "../sv/SafeERC20.sol";
-import "../sv/IERC20.sol";
-import "../roles/DependsOnFeeRecipient.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/SafeERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/IERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/roles/DependsOnFeeRecipient.sol";
 
 /// A strategy where yield washes ashore in terms of some rewardToken and gets
 /// Converted into stablecoin for repayment
