@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./Oracle.sol";
-import "../sv/IUniswapV2Pair.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/IUniswapV2Pair.sol";
 
 /// Use UniswapV2-compatible pairs to kepp up a twap oracle
 /// In all this one must be careful of staleness
