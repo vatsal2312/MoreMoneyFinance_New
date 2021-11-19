@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity ^0.8.0;
 
-import "../sv/IUniswapV2Router02.sol";
-import "../sv/EnumerableSet.sol";
-import "../sv/IERC20.sol";
-import "../sv/SafeERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/IUniswapV2Router02.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/EnumerableSet.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/IERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/SafeERC20.sol";
 
-import "../sv/ReentrancyGuard.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/ReentrancyGuard.sol";
 
-import "../roles/DependsOnStrategyRegistry.sol";
-import "../roles/DependsOnFeeRecipient.sol";
-import "../roles/RoleAware.sol";
-import "../roles/DependsOnStableCoin.sol";
+import "/home/sv/MoreMoneyFinance_New/roles/DependsOnStrategyRegistry.sol";
+import "/home/sv/MoreMoneyFinance_New/roles/DependsOnFeeRecipient.sol";
+import "/home/sv/MoreMoneyFinance_New/roles/RoleAware.sol";
+import "/home/sv/MoreMoneyFinance_New/roles/DependsOnStableCoin.sol";
 import "./YieldConversionStrategy.sol";
-import "../oracles/OracleAware.sol";
+import "/home/sv/MoreMoneyFinance_New/oracles/OracleAware.sol";
 
 contract AMMYieldConverter is
     DependsOnStrategyRegistry,
