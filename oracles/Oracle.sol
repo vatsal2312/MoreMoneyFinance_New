@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity ^0.8.0;
 
-import "../interfaces/IOracle.sol";
-import "../roles/RoleAware.sol";
-import "../roles/DependsOnOracleRegistry.sol";
+import "/home/sv/MoreMoneyFinance_New/interfaces/IOracle.sol";
+import "/home/sv/MoreMoneyFinance_New/roles/RoleAware.sol";
+import "/home/sv/MoreMoneyFinance_New/roles/DependsOnOracleRegistry.sol";
 
 /// Abstract base for oracles, concerned with parameter init
 abstract contract Oracle is IOracle, RoleAware, DependsOnOracleRegistry {
