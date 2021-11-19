@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./DependentContract.sol";
-import "../Stablecoin.sol";
+import "/home/sv/MoreMoneyFinance_New/Stablecoin.sol";
 
 abstract contract DependsOnStableCoin is DependentContract {
     constructor() {
