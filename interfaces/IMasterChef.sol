@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 pragma experimental ABIEncoderV2;
-import "../sv/IERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/IERC20.sol";
 
 interface IMasterChef {
     struct UserInfo {
