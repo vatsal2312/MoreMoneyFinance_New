@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: BUSL-1.1
 pragma solidity ^0.8.0;
 
-import "../Strategy.sol";
+import "/home/sv/MoreMoneyFinance_New/Strategy.sol";
 
-import "../interfaces/IYakStrategy.sol";
-import "../sv/SafeERC20.sol";
-import "../sv/IERC20.sol";
-import "../roles/DependsOnFeeRecipient.sol";
+import "/home/sv/MoreMoneyFinance_New/interfaces/IYakStrategy.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/SafeERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/IERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/roles/DependsOnFeeRecipient.sol";
 
 /// Compounding strategy using yieldyak
 contract YieldYakStrategy is Strategy, DependsOnFeeRecipient {
