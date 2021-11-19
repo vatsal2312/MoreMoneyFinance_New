@@ -1,5 +1,5 @@
 pragma solidity ^0.8.0;
-import "../sv/IERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/IERC20.sol";
 
 interface IYakStrategy {
     function depositToken() external view returns (address);
