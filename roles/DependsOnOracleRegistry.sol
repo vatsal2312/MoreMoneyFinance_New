@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import "./DependentContract.sol";
-import "../OracleRegistry.sol";
+import "/home/sv/MoreMoneyFinance_New/OracleRegistry.sol";
 
 abstract contract DependsOnOracleRegistry is DependentContract {
     constructor() {
