@@ -2,9 +2,9 @@
 pragma solidity ^0.8.0;
 
 import "./YieldConversionStrategy.sol";
-import "../sv/SafeERC20.sol";
-import "../sv/IERC20.sol";
-import "../interfaces/IMasterChef.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/SafeERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/sv/IERC20.sol";
+import "/home/sv/MoreMoneyFinance_New/interfaces/IMasterChef.sol";
 
 /// Self-repaying strategy using MasterChef rewards
 contract MasterChefStrategy is YieldConversionStrategy {
